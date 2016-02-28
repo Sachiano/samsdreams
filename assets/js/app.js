@@ -28,12 +28,16 @@ var DreamCycle = (function () {
         key: 'showDream',
         value: function showDream(dream) {
 
-            $('#date').text(dream.date);
-            $('#dream span').text(dream.dream);
+            $('#date').html(dream.date);
+            $('#dream span').html(dream.dream);
 
-            $('#dream').fadeIn(3000, function () {
-                $('#date').fadeIn(1500);
-            });
+            if ($('#dream span').text() == '{{dream}}') {
+                window.location.reload();
+            } else {
+                $('#dream').fadeIn(3000, function () {
+                    $('#date').fadeIn(1500);
+                });
+            }
         }
     }]);
 
