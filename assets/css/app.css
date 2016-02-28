@@ -1,0 +1,39 @@
+html,
+body {
+    min-height: 100%;
+    height: 100%;
+}
+
+body {
+    background: #000 url(../img/space1.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    color: #fff;
+    padding-top: 50px;
+    text-shadow: 2px 2px 2px #000;
+}
+
+#random {
+    text-shadow: none;
+    background: url(../img/space1.jpg) no-repeat;
+    border-color: purple;
+}
+
+#date,
+#dream {
+    display: none;
+}
+
+#dream {
+    font-size: 1.5em;
+}
+    #dream div {
+        margin-top: 20px;
+        font-style: italic;
+    }
+
+#date {
+    margin-left: 15px;
+    font-size: 0.75em;
+    color: #eee;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sam's Dreams</title>
+    <script type="text/javascript" src="dreams.json"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/app.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 col-sm-12">
+                <h1>Sam's Dreams <small class="btn btn-primary" id="random">Random Dream</small></h1>
+                <hr>
+                <div id="dream">
+                    <span>{{dream}}</span> 
+                    <div>
+                        &mdash; Sam Howell
+                        <small id="date">{{date}}</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="assets/js/app.js"></script>
+</html>
