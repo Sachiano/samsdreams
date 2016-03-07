@@ -1,4 +1,4 @@
-[
+var dreams = [
     {
         "date": "2015-12-17",
         "dream": "I had a dream the other night that Kyle katarn was in the new [Star Wars] movie haha, don't tell me if he is or isn't"
@@ -23,6 +23,10 @@
         "date": "2016-02-28",
         "dream": "Was getting chased by a werewolf up a building and I was sort of climbing on little roofs and extensions, it's chasing me then suddenly transforms back to a man, he falls to the floor but his lower part of his body shows that he is disabled and has very tiny legs. I told him to fuck off and kicked him off the roof"
     },
+    {
+        "date": "2016-03-06",
+        "dream": "Last night I dreamt I was in a bar fight with Donald trump \n Got pretty aggressive \n more like a heated argument because he asked for directions and I sent him into the toilets, he came out a while later and shouted at me for giving him false directions, I said you was probably in there for so long because you're full of shit"
+    }
     {
 
     }
